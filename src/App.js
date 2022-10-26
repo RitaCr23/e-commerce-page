@@ -9,14 +9,9 @@ export default function App() {
     <div>
       <Header />
       <Routes>
-        <Route path="/">
-          <Photos />
-        </Route>
-        <Route>
-          <Cart />
-        </Route>
+        <Route path="/" element={<Photos />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
-      <h1>Home Page</h1>
     </div>
   );
 }

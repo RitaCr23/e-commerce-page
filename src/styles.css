@@ -3,7 +3,7 @@
   --red: #ea453c;
   --dark-green: #157758;
   --light-green: #69edca;
-  --blue: #ace6ec;
+  --blue: #2ea7b5;
 }
 
 html,
@@ -136,11 +136,17 @@ a {
 }
 
 a:visited {
-  color: var(--light-blue);
+  color: var(--light-green);
 }
 a:hover {
-  color: var(--light-blue);
+  color: var(--light-green) !important;
 }
 a:active {
-  color: var(--light-blue);
+  color: var(--light-green);
+}
+
+.btn-order {
+  background-color: var(--dark-green) !important;
+  border: none !important;
+  color: var(--light-green) !important;
 }
